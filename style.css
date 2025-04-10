@@ -6,12 +6,24 @@
 }
 
 body{
-    background: #2566ce;
+    background: linear-gradient(135deg, #2566ce, #3a0ca3);
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;    
+    padding: 20px;
+}
+
+.glass-container {
+    background: rgba(255, 255,255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    width: 90%;
+    max-width: 550px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .container {
